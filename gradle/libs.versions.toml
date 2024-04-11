@@ -18,6 +18,7 @@ retrofitMoshi = "2.11.0"
 moshi = "1.15.0"
 room = "2.6.1"
 mockk = "1.13.10"
+turbine = "1.1.0"
 kotlinCoroutineTest = "1.8.0"
 
 [libraries]
@@ -51,6 +52,7 @@ retrofit-moshi = { group = "com.squareup.retrofit2", name = "converter-moshi", v
 moshi = { group = "com.squareup.moshi", name = "moshi-kotlin", version.ref = "moshi" }
 
 mockk = { group = "io.mockk", name = "mockk", version.ref = "mockk" }
+turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbine" }
 
 kotlin-coroutine-test = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-test", version.ref = "kotlinCoroutineTest" }
 
